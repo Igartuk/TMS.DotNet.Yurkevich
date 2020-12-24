@@ -18,12 +18,11 @@ namespace DateHandler
 
                 if (dt == null)
                 {
-                    Console.WriteLine("Неверный формат,введите еще раз");
+                    Console.WriteLine("Неверный формат,введите еще раз,если закончили введите end");
                     continue;
                 }
 
                 Console.WriteLine(dt.Value.DayOfWeek);
-                Console.WriteLine("Если вы закончили,наберите end ");
                
             }
         }
